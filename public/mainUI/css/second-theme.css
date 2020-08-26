@@ -1,0 +1,66 @@
+/******** start second-color theme *********/
+header,.nav-list li::before,.home .home-content .button,.about,.services,.portfolio,.skills,.priceing,.team,.contact
+{
+    background: #1f2123;
+}
+header .logo h2 span,.home .home-content .button:hover,.contact .contact-info span i , .copyright .copy-desc i , .copyright ul li:hover
+{
+  color: #0f4f49
+}
+
+.nav-list li:hover,
+.nav-list li:hover:before,
+.section-header .line span,
+.services .trans.from-top .trans1,
+.portfolio ul li span:before,
+.contact .contact-info span:hover i,
+.contact form .form-btn
+{
+    background: #0f4f49 ;
+}
+
+.services .trans.from-top .trans2 h2,.services .trans.from-top .trans2 i
+{
+    color: #f2f2f2
+}
+.services .trans.from-top:hover h2 {
+  color: #fff; }
+
+.services .trans.from-top:hover i {
+  color: #fff; }
+.skills .progress.blue .progress-bar {
+    border-color: #0f4f49 
+}
+.portfolio ul li
+{
+    border-top: 4px solid #3e6b5f;
+}
+
+.contact .contact-info span i 
+{
+    border: 1px solid #0f4f49;
+}
+.option-box .color-option
+{
+    background: #12302d;
+    border: 3px solid #3a825a ;   
+}
+.option-box .gear-check
+{
+    background: #3a825a
+}
+.overlay
+{
+    background: rgba(0, 20, 0, 0.5)
+}
+.bor
+{
+    border-bottom: 1px solid #324d3e;
+    border-top: 1px solid #111d14;
+}
+.scroll-top
+{
+    background: #0f4f49;
+}
+ 
+/********* end second-color theme **********/

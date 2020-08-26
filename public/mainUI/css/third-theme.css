@@ -1,0 +1,84 @@
+/*********** start third-theme ************/
+header,.nav-list li::before,.home .home-content .button,.about,.services,.portfolio,.skills,.priceing,.team,.contact
+{
+    background: #274a2d;
+}
+header .logo h2 span,.home .home-content .button:hover,.contact .contact-info span i , .copyright .copy-desc i , .copyright ul li:hover
+{
+  color: #238443;
+}
+
+.nav-list li:hover,
+.nav-list li:hover:before,
+.section-header .line span,
+.services .trans.from-top .trans1,
+.portfolio ul li span:before,
+.contact .contact-info span:hover i,
+.contact form .form-btn
+{
+    background: #238443;
+}
+
+.services .trans.from-top .trans2 h2,.services .trans.from-top .trans2 i
+{
+    color: #f2f2f2
+}
+.services .trans.from-top:hover h2 {
+  color: #fff; }
+
+.services .trans.from-top:hover i {
+  color: #fff; }
+.skills .progress.blue .progress-bar {
+    border-color: #238443 
+}
+.portfolio ul li
+{
+    border-top: 4px solid #093417;
+}
+
+.col-md-3:nth-child(1) .card, .col-sm-6:nth-child(1) .card , .col-md-3:nth-child(1) .title .fa, .col-sm-6:nth-child(1) .title .fa
+{
+    background: linear-gradient(-45deg , #070118 , #1e3a52 );
+}
+.col-md-3:nth-child(2) .card, .col-sm-6:nth-child(2) .card , .col-md-3:nth-child(2) .title .fa, .col-sm-6:nth-child(2) .title .fa
+{
+    background: linear-gradient(-45deg , #070118 , #0f2c44 );
+    transform: scale(1.1)
+}
+.col-md-3:nth-child(3) .card, .col-sm-6:nth-child(3) .card ,  .col-md-3:nth-child(3) .title .fa, .col-sm-6:nth-child(3) .title .fa
+{
+    background: linear-gradient(-45deg , #070118 , #05010f );
+}
+.col-md-3:nth-child(4) .card, .col-sm-6:nth-child(4) .card , .col-md-3:nth-child(4) .title .fa, .col-sm-6:nth-child(4) .title .fa
+{
+    background: linear-gradient(-45deg , #070118 , #3a597a );
+}
+
+.contact .contact-info span i 
+{
+    border: 1px solid #238443;
+}
+.option-box .color-option
+{
+    background: #12302d;
+    border: 3px solid #3a825a ;   
+}
+.option-box .gear-check
+{
+    background: #3a825a
+}
+.overlay
+{
+    background: rgba(0, 20, 0, 0.5)
+}
+.bor
+{
+    border-bottom: 1px solid #134f2d;
+    border-top: 1px solid #255731;
+} 
+.scroll-top
+{
+    background: #238443;
+}
+/*********** end third-theme ************/
+

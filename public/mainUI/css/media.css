@@ -1,0 +1,188 @@
+/****** (mobile phone) ******/
+
+@media (max-width: 768px)
+{
+    /*** general ***/
+    .section-header .section-title
+    {
+        font-size: 25px
+    }
+    .section-header .line
+{
+    width: 70px;
+    height: 2px;
+}
+.section-header .line span
+{
+    width: 50px;
+    height: 4px;
+    display: block;
+    position: relative;
+}
+.section-header p
+{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+    /*** ./general ***/
+    /**** header ****/
+    header
+    {
+        background: #2c3e50 ;
+    }
+    header i.head-icon
+    {
+        display: block;
+        color: #fff;
+    }
+    header .logo
+    {
+        text-align: center
+    }
+    header .logo h2 
+{
+    font-size: 25px;
+}
+    header nav .nav-list
+    {
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    header nav .nav-list li
+    {
+        background: #2c3e50;
+        margin: 5px 0;
+        text-align: center;
+        display: block
+    }
+    .nav-list li::before
+    {
+    content: "";
+    display: none;
+    position: static;
+    width: 0;
+    height: 0;
+    background: none;
+    border-radius: 0;
+    left: 0;
+    top: 0;
+    transform: rotate(0);
+    transition: all 0, background .2s; 
+    }
+    header nav .nav-list li:hover
+    {
+        padding-bottom: 4px;
+    }
+    .nav-list li:hover:before 
+    {
+        border-radius: 0;
+    }
+    /**** ./header ****/
+    /**** home ****/
+    .home .home-content .home-content-title
+    {
+        font-size: 25px
+    }
+    .home .home-content .home-content-desc
+    {
+        font-size: 16px
+    }
+    /**** ./home ****/
+    /**** about  ****/
+    .about .desc-about
+    {
+        text-align: center
+    }
+    .about .part .desc-about-one,.about .part .desc-about-three
+    {
+    text-align: center
+    }
+    .about .part .desc-about-two,.about .part .desc-about-four
+    {
+    text-align: center
+    }
+    .about .part .desc-about-one h4
+    {
+        font-size: 20px;
+        padding: 15px 0
+    }
+    .about .part .desc-about-one p
+    {
+        line-height: 1.7;
+        text-transform: capitalize
+    }
+    /**** ./about  ****/
+    /******* portfolio ********/
+    .portfolio .row img
+    {
+        margin-bottom: 30px
+    }
+    /******* ./portfolio ********/
+    /****** price ********/
+    .title .fa
+    {
+    font-size: 35px;
+    }
+    .title h2
+    {
+    font-size: 25px;
+    }
+    .price h4
+    {
+    font-size: 30px;
+    }
+/****** ./price ********/   
+}
+/***** ./(mobile phone) *******/
+/************ desktop *****************/
+@media(min-width : 768px) and (max-width : 991px)
+{
+  .section-header p
+    {
+        font-size: 14px
+    }
+    
+    /** header **/
+     header .logo h2
+    {
+        text-align: center;
+    }
+     
+    /**./header**/
+    /**home**/
+    .home .home-content .home-content-title
+    {
+        font-size: 30px
+    }
+    /**./home**/
+    /*** about ***/
+    .about .desc-about
+    {
+        text-align: center
+    }
+    .about .part .desc-about-one,.about .part .desc-about-three
+    {
+    text-align: center
+    }
+    .about .part .desc-about-two,.about .part .desc-about-four
+    {
+    text-align: center
+    }
+    /*** ./about ***/
+    /*** portfolio **/
+    .portfolio .row img
+    {
+        margin-bottom: 30px
+    }
+    /***** ./portfolio ****/
+}
+@media(max-width : 1200px)
+{
+    header nav .nav-list
+    {
+        margin-left: -35px
+    }
+}

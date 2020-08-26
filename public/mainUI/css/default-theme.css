@@ -1,0 +1,75 @@
+/******** start default theme *********/
+header,.nav-list li::before,.home .home-content .button,.about,.services,.portfolio,.skills,.priceing,.team,.contact
+{
+    background: #384a5e;
+}
+header .logo h2 span,.home .home-content .button:hover, .services .trans.from-top .trans2 h2 , .services .trans.from-top .trans2 i, .contact .contact-info span i , .copyright .copy-desc i , .copyright ul li:hover
+{
+  color: #3a7ece
+}
+.nav-list li:hover,
+.nav-list li:hover:before,
+.section-header .line span,
+.services .trans.from-top .trans1,
+.portfolio ul li span:before,
+.contact .contact-info span:hover i,
+.contact form .form-btn
+{
+    background: #3a7ece ;
+}
+.services .trans.from-top:hover h2 {
+  color: #fff; }
+
+.services .trans.from-top:hover i {
+  color: #fff; }
+.option-box .color-option
+{
+    background: #333c46
+}
+
+.portfolio ul li
+{
+    border-top: 4px solid #3e6b5f;
+}
+.skills .progress.blue .progress-bar {
+    border-color: #3a7ece 
+}
+.contact .contact-info span i 
+{
+    border: 1px solid #3a7ece;
+}
+.portfolio ul li
+{
+    border-top: 4px solid #3a7cec;
+}
+.option-box .color-option
+{
+    border: 3px solid #5883b1;
+    
+}
+.option-box .gear-check
+{
+    background: #5883b1;
+}
+.overlay
+{
+    background: rgba(46, 62, 78, 0.5)
+}
+.bor
+{
+    border-bottom: 1px solid #2f3034;
+    border-top: 1px solid #4e5782;
+}
+.scroll-top
+{
+    background: #313059;
+}
+.loading-overlay
+{
+    background: #384a5e;
+}
+.spinner {
+   
+  background-color: #3a7ece;
+}
+/********* end default theme **********/
